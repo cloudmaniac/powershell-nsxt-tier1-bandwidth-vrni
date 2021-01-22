@@ -2,7 +2,7 @@
 
 ## Description
 
-This script use the [PowervRNI](https://github.com/PowervRNI/powervrni) PowerShell module to get **ingress and egress bandwidth statistics for an NSX-T Tier-1 Gateway** (on-premises, or VMConAWS).
+This script use the [PowervRNI](https://github.com/PowervRNI/powervrni) PowerShell module to get **ingress and egress bandwidth statistics for an NSX-T Tier-1 Gateway** (on-premises, or VMConAWS). The output of the script can be useful to calculate egress traffic charges for public clouds (e.g.,in a VMware Cloud on AWS context) by Tier-1 Gateways.
 
 Starting vRealize Network Insight (vRNI) 3.6, the platform has a public API. PowervRNI is a PowerShell module that takes advantage of those public APIs and provides you with the option to look at vRNI data using PowerShell.
 
@@ -40,3 +40,8 @@ PS C:\> Connect-vRNIServer -Server superdope.vrni.lab -Username admin@local -Pas
 ## Considerations
 
 > The period is currently 24 hours.
+
+## Enhancements
+
+* Move the variable from static definition in the code to input
+* Provide time frame choice (by 24 hours, monthly, etc.)
