@@ -1,4 +1,5 @@
-# PowervRNI Example - Get ingress/egress bandwidth usage for a VMConAWS Tier-1 Gateway
+# PowervRNI Example - Get ingress/egress bandwidth usage for a list of NSX-T Tier-1 Gateways
+# Note: it also works with the VMConAWS Tier-1 Gateways
 #
 # Romain Decker (@woueb)
 # rdecker@vmware.com
