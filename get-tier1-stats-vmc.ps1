@@ -4,7 +4,7 @@
 # rdecker@vmware.com
 # Version 1.0
 # 
-# Based on this sample script from Martijn Smit (@smitmartijn): https://raw.githubusercontent.com/PowervRNI/powervrni/master/examples/get-bandwidth-usage-per-ip.ps1
+# Based on this sample script from Martijn Smit (@smitmartijn): https://github.com/PowervRNI/powervrni/blob/master/examples/get-bandwidth-usage-per-ip.ps1
 
 param (
     [Parameter (Mandatory=$false)]
